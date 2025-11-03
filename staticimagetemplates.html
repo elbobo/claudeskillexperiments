@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+        body{
+            background-color: #DAD7D7;
+        }
+
+        .container{
+            margin: auto;
+        }
+
+        /* Grid container */
+        .template-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        /* Each template card */
+        .template-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        
+        /* Scaled preview container */
+        .preview-container {
+            width: 300px;
+            height: 161px;
+            border: 1px solid #ddd;
+        }
+        
+        /* The scaling magic */
+        .preview-scaled {
+            width: 1200px;
+            height: 644px;
+            transform: scale(0.25);
+            transform-origin: top left;
+        }
+
+        pre{
+            width: 100%;
+            white-space: normal;
+            height: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="template-grid">
+            <!-- Template 1 -->
+            <div class="template-card">
+                <h3>Template 1</h3>
+                <div class="preview-container">
+                    <div class="preview-scaled">
+                        <!-- YOUR FULL-SIZE TEMPLATE HERE -->
+                        <div style="position: relative; width: 1200px; height: 644px; background: blue; padding: 16px;">
+                            <h1 style="font-size: 80px;">Full Size template 1</h1>
+                            <div style="position: absolute; left: 0; bottom: 0; width: 100%; height: 100px; background-color: black"></div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- The code that goes in <pre> -->
+                <pre>
+                    &lt;div style=&quot;position: relative; width: 1200px; height: 644px; background: blue; padding: 16px;&quot;&gt;
+                            &lt;h1 style=&quot;font-size: 80px;&quot;&gt;Full Size template 1&lt;/h1&gt;
+                            &lt;div style=&quot;position: absolute; left: 0; bottom: 0; width: 100%; height: 100px; background-color: black&quot;&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                </pre>
+            </div>
+            <!-- end template 1 -->
+            
+            <!-- Template 2 -->
+            <div class="template-card">
+                <h3>Template 2</h3>
+                <div class="preview-container">
+                    <div class="preview-scaled">
+                        <!-- YOUR FULL-SIZE TEMPLATE HERE -->
+                        <div style="position: relative; width: 1200px; height: 644px; background: red; padding: 16px;">
+                            <h1 style="font-size: 80px;">Full Size template 2</h1>
+                            <div style="position: absolute; left: 0; bottom: 0; width: 100%; height: 100px; background-color: green"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- The code that goes in <pre> -->
+                <pre>
+                     &lt;div style=&quot;position: relative; width: 1200px; height: 644px; background: red; padding: 16px;&quot;&gt;
+                            &lt;h1 style=&quot;font-size: 80px;&quot;&gt;Full Size template 2&lt;/h1&gt;
+                            &lt;div style=&quot;position: absolute; left: 0; bottom: 0; width: 100%; height: 100px; background-color: green&quot;&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                </pre>
+            </div>
+            <!-- end template 2 -->
+            
+            <!-- Template 3 -->
+            <div class="template-card">
+                <h3>Template 3</h3>
+                <div class="preview-container">
+                    <div class="preview-scaled">
+                        <!-- YOUR FULL-SIZE TEMPLATE HERE -->
+                        <div style="position: relative; width: 1200px; height: 644px; background: yellow; padding: 16px;">
+                            <h1 style="font-size: 80px;">Full Size template 3</h1>
+                            <div style="position: absolute; left: 0; bottom: 0; width: 100%; height: 100px; background-color: blue"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- The code that goes in <pre> -->
+                <pre>
+                   &lt;div style=&quot;position: relative; width: 1200px; height: 644px; background: yellow; padding: 16px;&quot;&gt;
+                            &lt;h1 style=&quot;font-size: 80px;&quot;&gt;Full Size template 3&lt;/h1&gt;
+                            &lt;div style=&quot;position: absolute; left: 0; bottom: 0; width: 100%; height: 100px; background-color: blue&quot;&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                </pre>
+            </div>
+            <!-- end template 3 -->
+        
+        </div>
+        <!--end template grid-->
+
+    </div>
+    <!-- end container -->
+</body>
+</html>
