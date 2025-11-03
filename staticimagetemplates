@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Grid container */
+        .template-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        /* Each template card */
+        .template-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        
+        /* Scaled preview container */
+        .preview-container {
+            width: 300px;
+            height: 161px;
+            overflow: hidden;
+            border: 1px solid #ddd;
+        }
+        
+        /* The scaling magic */
+        .preview-scaled {
+            width: 1200px;
+            height: 644px;
+            transform: scale(0.25);
+            transform-origin: top left;
+        }
+    </style>
+</head>
+<body>
+    <div class="template-grid">
+        <!-- Template 1 -->
+        <div class="template-card">
+            <h3>Template Name</h3>
+            <div class="preview-container">
+                <div class="preview-scaled">
+                    <!-- YOUR FULL-SIZE TEMPLATE HERE -->
+                    <div style="width: 1200px; height: 644px; background: blue;">
+                        <h1 style="font-size: 80px;">Full Size</h1>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- The code that goes in <pre> -->
+            <pre>
+&lt;div style="width: 1200px; height: 644px; background: blue;"&gt;
+    &lt;h1 style="font-size: 80px;"&gt;Full Size&lt;/h1&gt;
+&lt;/div&gt;
+            </pre>
+        </div>
+        
+        <!-- Repeat for template 2 and 3 -->
+    </div>
+</body>
+</html>
