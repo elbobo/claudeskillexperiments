@@ -1,13 +1,13 @@
 @font-face {
-  font-family: 'producticonsfont';
-  src: url('fonts/iaiproducticonsfont.woff2') format('woff2'),
-       url('fonts/iaiproducticonsfont.woff') format('woff'),
-       url('fonts/iaiproducticonsfont.ttf') format('truetype');
+  font-family: 'iaiproducticons';
+  src: url('fonts/iaiproducticons.woff2') format('woff2'),
+       url('fonts/iaiproducticons.woff') format('woff'),
+       url('fonts/iaiproducticons.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-.producticonsfont {
-  font-family: 'producticonsfont', sans-serif;
+.iaiproducticons {
+  font-family: 'iaiproducticons', sans-serif;
 }
