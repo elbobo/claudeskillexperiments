@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'iaiproducticon';
-  src: url('fonts/iaiproductions.eot') format('eot'),
-       url('fonts/iaiproductions.woff') format('woff'),
-       url('fonts/iaiproductions.ttf') format('truetype');
+  src: url('fonts/iaiproducticons.eot') format('eot'),
+       url('fonts/iaiproducticons.woff') format('woff'),
+       url('fonts/iaiproducticons.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
