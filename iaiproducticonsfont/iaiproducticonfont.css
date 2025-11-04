@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'iaiproducticon';
+  src: url('fonts/iaiproductions.eot') format('eot'),
+       url('fonts/iaiproductions.woff') format('woff'),
+       url('fonts/iaiproductions.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.iaiproducticonfont {
+  font-family: 'iaiproducticon', sans-serif;
+}
