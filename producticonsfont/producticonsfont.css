@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'producticonsfont';
+  src: url('fonts/iaiproducticonsfont.woff2') format('woff2'),
+       url('fonts/iaiproducticonsfont.woff') format('woff'),
+       url('fonts/iaiproducticonsfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.custom-emoji {
+  font-family: 'CustomEmoji', sans-serif;
+}
