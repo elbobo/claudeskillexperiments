@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'iai_iconfont';
+  src:  url('fonts/iai_iconfont.eot?wy7kb6');
+  src:  url('fonts/iai_iconfont.eot?wy7kb6#iefix') format('embedded-opentype'),
+    url('fonts/iai_iconfont.ttf?wy7kb6') format('truetype'),
+    url('fonts/iai_iconfont.woff?wy7kb6') format('woff'),
+    url('fonts/iai_iconfont.svg?wy7kb6#iai_iconfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iai_iconfont' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-extract_icononly_flattened:before {
+  content: "\e003";
+}
+.icon-iai_flattened:before {
+  content: "\e006";
+}
+.icon-minute_icononly_flattened:before {
+  content: "\e004";
+}
+.icon-parlex_icononly_flattened:before {
+  content: "\e005";
+}
+.icon-extract:before {
+  content: "\e000";
+}
+.icon-minute:before {
+  content: "\e001";
+}
+.icon-parlex:before {
+  content: "\e002";
+}
